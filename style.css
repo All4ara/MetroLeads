@@ -1,71 +1,35 @@
-ody {
-  margin-top: 20px;
+.shop-menu-btn {
+  width: 100%;
+  height: 14rem;
+  font-size: 2rem;
+  font-weight: 500;
+  color: rgb(175, 228, 255);
+  text-shadow: 2px 2px 8px #000000;
+  border: 4px solid #424242a2;
 }
 
-.align-center {
-  text-align: center;
-}
-.hash-list {
-  display: block;
-  padding: 0;
-  margin: 0 auto;
+.shop-menu-btn:hover {
+  color: white;
+  border: 6px solid #808080a2;
 }
 
-@media (min-width: 768px) {
-  .hash-list.cols-3 > li:nth-last-child(-n + 3) {
-    border-bottom: none;
-  }
-}
-@media (min-width: 768px) {
-  .hash-list.cols-3 > li {
-    width: 33.3333%;
-  }
-}
-.hash-list > li {
-  display: block;
-  float: left;
-}
-.pad-30,
-.pad-30-all > * {
-  padding: 30px;
-}
-img {
-  border: 0;
-}
-.mgb-20,
-.mgb-20-all > * {
-  margin-bottom: 20px;
-}
-.wpx-100,
-.wpx-100-after:after {
-  width: 100px;
-}
-.img-round,
-.img-rel-round {
-  border-radius: 50%;
-}
-.padb-30,
-.padb-30-all > * {
-  padding-bottom: 30px;
+.flower-img {
+  background-image: url(https://s27363.pcdn.co/wp-content/uploads/2020/05/One-Day-in-Brooklyn.jpg.optimal.jpg);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.mgb-40,
-.mgb-40-all > * {
-  margin-bottom: 40px;
+.wax-img {
+  background-image: url(https://cdn.theculturetrip.com/wp-content/uploads/2019/01/b872bt-1.jpg);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.align-center {
-  text-align: center;
-}
-[class*="line-b"] {
-  position: relative;
-  padding-bottom: 20px;
-  border-color: #e6af2a;
-}
-.fg-text-d,
-.fg-hov-text-d:hover,
-.fg-active-text-d.active {
-  color: #222;
-}
-.font-cond-b {
-  font-weight: 700 !important;
+
+.cream-img {
+  background-image: url(https://loving-newyork.com/wp-content/uploads/2019/07/Things-to-do-in-the-Bonx.jpg);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
