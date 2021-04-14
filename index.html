@@ -16,12 +16,12 @@
     <link rel="stylesheet" href="style.css">
     <!-- Google Fonts -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <header>
         <nav class="navbar  navbar-dark bg-dark">
-            <a class="navbar-brand" href="index.html"><img src="./images/wide-silver-logo.png" alt="logo"/></a>
+            <a class="navbar-brand" href="index.html" ><img src="./images/wide-silver-logo.png" alt="logo" /></a>
             
         
             <div >
@@ -38,12 +38,12 @@
 
         <div class="container mt-5 mb-5">
            
-            <div class="text-center">
-                <h5 class="">Not Yet Convinced?</h5>
+            <div class="text-center" data-aos="slide-up" aos-duration="800">
+                <h5 class="" >Not Yet Convinced?</h5>
                 <h2 class="">Listen to Our Clients</h2>
             </div>
-           <div class="d-flex flex-wrap mt-5">
-               <div class="col-12 col-lg-4 text-center mb-5">
+           <div class="d-flex flex-wrap mt-5" >
+               <div class="col-12 col-lg-4 text-center mb-5" data-aos="zoom-in" data-aos-duration="600">
                 <p class="">" We had one of the most positive experiences with
                     Denis. From the onset of this journey Denis was on top of everything, knowledgeable, experienced and has a fantastic
                     personality. Selling a house can be a stressful experience filled with a lot of anxiety but
@@ -51,7 +51,7 @@
                 <h5 class="" > Christopher S.</h5>
                 <small class="" >Multi Family - Brooklyn</small>
             </div>
-            <div class="col-12 col-lg-4 text-center mb-5">
+            <div class="col-12 col-lg-4 text-center mb-5" data-aos="zoom-in" data-aos-duration="800">
                 <p class="">" Denis went above and beyond for me and my family. He has been
                     patient and there with us every step of the way. Even when I felt like giving up, he persuaded me not to give up and
                     encouraged me. Man, I would give you a hundred stars if I could. I really appreciate all that you have done! People
@@ -59,7 +59,7 @@
                 <h5 class="" >Diego W.</h5>
                 <small class="" >Single Family - Springfield Gardens</small>
             </div>
-            <div class="col-12 col-lg-4 text-center mb-5">
+            <div class="col-12 col-lg-4 text-center mb-5" data-aos="zoom-in" data-aos-duration="1000">
                 <p class="" >" It was a pleasure working with Denis. He helped my husband and
                     me find our dream home and kept up consistent positive
                     energy and offered great advice. He is very knowledgeable, patient and motivated. Not pushy except at the end to
@@ -71,19 +71,19 @@
             
         </div>
 
-        <div class="text-center">
+        <div class="text-center" data-aos="slide-up" aos-duration="500">
             <h2 class="">Neighborhoods</h2>
         </div>
         <div class="container-fluid padding mt-5 mb-4">
             <div class="row text-center padding">
                 <div class="col-xs-12 col-md-4 mt-1">
-                    <a href="https://metropolitanbrokersny.com/"><button class="flower-img shop-menu-btn">Brooklyn</button></a>
+                    <a href="index.html"><button class="flower-img shop-menu-btn">Brooklyn</button></a>
                 </div>
                 <div class="col-xs-12 col-md-4 mt-1">
-                    <a href="https://metropolitanbrokersny.com/"><button class="wax-img shop-menu-btn">Queens</button></a>
+                    <a href="index.html"><button class="wax-img shop-menu-btn">Queens</button></a>
                 </div>
                 <div class="col-xs-12 col-md-4 mt-1">
-                    <a href="https://metropolitanbrokersny.com/"><button class="cream-img shop-menu-btn">Bronx</button></a>
+                    <a href="index.html"><button class="cream-img shop-menu-btn">Bronx</button></a>
                 </div>
             </div>
         </div>
@@ -136,7 +136,10 @@
                 </div>
             </div>
     </footer>
-
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
     <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
     <script type="text/javascript" src="https://embed.typeform.com/embed.js"></script>
